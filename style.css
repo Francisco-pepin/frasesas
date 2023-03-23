@@ -10,7 +10,9 @@
   align-items: center;
   justify-content: center;
 }
-.button {
+
+
+.button #excusa{
     min-width: 300px;
     min-height: 80px;
     font-family: 'Nunito', sans-serif;
