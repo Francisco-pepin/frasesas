@@ -11,8 +11,12 @@
   justify-content: center;
 }
 
-
-.button #excusa{
+#excusa{
+    color:slategray;
+    font-size:18px;
+    font-weight: bold;
+}
+.button {
     min-width: 300px;
     min-height: 80px;
     font-family: 'Nunito', sans-serif;
