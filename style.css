@@ -1,3 +1,15 @@
+.container{
+  display:flex;
+ align-items: center;
+ justify-content:center;
+ flex-direction: column;
+}
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .button {
     min-width: 300px;
     min-height: 80px;
