@@ -42,7 +42,7 @@ function generaFrase() {
 console.log(generaFrase()); 
 
 function generaFrases(){
-    document.getElementById('fraseGenerada').innerHTML = generaFrase;
+    document.getElementById('fraseGenerada').innerHTML = generaFrase();
 }
 
 generaFrase();
