@@ -34,14 +34,14 @@ const frasespro = [
 function generaFrase() {
  
     const frases = Math.floor(Math.random() * frases.length);
-    const fraseHTML = `${frasespro[frases]}`
-    return fraseHTML;
+    const fraseGenerada = `${frasespro[frases]}`
+    return fraseGenerada;
 }
 
 console.log(generaFrase()); 
 
 function generaFrase(){
-    document.getElementById("fraseHTML").innerHTML = generaFrase();
+    document.getElementById("fraseGenerada").innerHTML = generaFrase();
 }
 
 generaFrase();
