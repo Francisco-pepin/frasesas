@@ -33,7 +33,7 @@ const frasespro = [
 
 function generaFrase() {
  
-    const frases = Math.floor(Math.random() * frases.length);
+    const frases = Math.floor(Math.random() * frasespro.length);
     const fraseGenerada = `${frasespro[frases]}`
     return fraseGenerada;
 }
