@@ -95,3 +95,8 @@ section {
       opacity: 0;
     }
   }
+  #excusa {
+    color:slategray;
+    font-size:18px;
+    font-weight: bold;
+}
