@@ -35,13 +35,13 @@ function generaFrase() {
  
     const frases = Math.floor(Math.random() * frasespro.length);
     const frasesesasa = frasespro[frases];
- 
+    
     return fraseGenerada;
 }
 
 console.log(generaFrase()); 
 
-function generaFrase(){
+function generaFrases(){
     document.getElementById('fraseGenerada').innerHTML = generaFrase;
 }
 
